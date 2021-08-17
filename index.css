@@ -1,0 +1,41 @@
+h1{
+font-family: 'Prompt', sans-serif;
+    color: rgb(248, 249, 252);
+    text-align: center;
+}
+
+body{
+    background-color: black;
+}
+div.profile-pic{
+    display: flex; justify-content: center;align-items: center; 
+}
+div.About-Me{
+    color: bisque;
+    text-align: center;
+}
+div.info
+{
+    color: bisque;
+    display: flex; justify-content: center;align-items: center; 
+}
+div.content
+{ color: beige;
+    
+}
+@media(max-width:1020px){
+    h2{
+        color: blanchedalmond;
+        text-align: center;
+    }
+nav.Contact li{
+    display: flex; justify-content: center;align-items: center; 
+}}
+@media(min-width:1021px){
+    h2{
+        color: blanchedalmond;
+        text-align: right;
+    }
+nav.Contact li{
+float: right;
+}}
