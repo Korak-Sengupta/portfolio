@@ -1,0 +1,96 @@
+@media(max-width:1020px){
+    h2{
+        color: blanchedalmond;
+        text-align: center;
+    }
+    div.Contact ul{
+        text-align:center;
+    }
+    div.Contact ul li {
+        padding:10px;
+    }
+    h1
+    {
+    font-family: 'Rampart One', cursive;
+    color: rgb(248, 249, 252);
+    text-align: center;
+    }
+    h2
+    {
+        color: bisque;
+    }
+    h3
+    {
+        color: bisque;
+    }
+    body{
+        background-color: black;
+    }
+    div.about p{
+        color: rgb(229, 229, 233);
+    }
+    div.Skills ul
+    {
+    color: bisque;
+    }
+    nav{
+        display: flex;
+        position: relative;
+    }
+    div.profile-pic{
+      /*  display: flex;justify-content: center;align-items: center; */
+    }
+    div.About-Me{
+        color: bisque;
+        text-align: center;
+    }
+    
+    #navbar::before{
+        content: " ";
+        background-image: url("images/city1.jpeg");
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+    }
+    div.info ul
+    {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+    div.info ul li
+    {
+        position: relative;
+        justify-content: center;
+        list-style: none;
+    }
+    
+    div.info ul li a{
+        display: block;
+        color: rgba(7, 7, 6, 0.966);
+        text-decoration: none;
+        padding: 5px 15px;
+        font-size: 25px;
+        font-family: 'Prompt', sans-serif;
+    }
+    div.info ul li a:hover{
+        color: #ece4e4;
+        background-color: rgb(43, 42, 39);
+    }
+    
+    div.content
+    { color: beige; 
+    }
+    
+    div.Projects li a{
+       display: flex;justify-content: center;
+    }
+    div.Projects li a:hover{
+     }
+    div.Experience li {
+        color: blanchedalmond;
+        text-decoration: none;
+     }
+    
+}
